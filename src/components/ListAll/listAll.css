@@ -1,0 +1,370 @@
+.test{
+    margin-left: 58.5%;
+    margin-top: 10px;
+    max-width: 600px;
+    height: 198px;
+    display: flex;
+    border-style: outset;
+    border-width: 2px;
+    box-shadow: -1px -1px 1px #ABADB3;
+    border-top-right-radius: 10px;
+}
+
+.test1{
+    display: grid;
+    flex-direction: row;
+}
+
+.filtro1{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 600px;
+    height: 198px;
+    display: flex;
+    position: absolute;
+    border-style: outset;
+    border-width: 2px;
+    box-shadow: -1px -1px 1px #ABADB3;
+    border-top-left-radius: 10px;
+}
+
+.regiao{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    width: 95%;
+    border-style: solid;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 342px;
+    padding-bottom: 5px;
+}
+
+.regiaoBtn{
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    width: 10%;
+    height: 30px;
+    border-width: 1px;
+    border-style: double;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+    border-right-color: gray;
+    border-color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.filial{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+
+}
+
+.filialBtn{
+    font-size: 15px;
+    width: 9%;
+    height: 30px;
+    border-width: 1px;
+    border-style: double;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+    border-right-color: gray;
+    border-color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.vendedor{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+} 
+
+.vendedorBtn{
+    cursor: pointer;
+    border-style: double;
+    border-color: gray;
+    height: 30px;
+    width: 12%;
+    border-width: 1px;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+    font-size: 15px;
+}
+
+.cliente{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+}
+
+.clienteBtn{
+    width: 14%;
+    height: 30px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: double;
+    border-color: gray;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+    font-size: 15px;    
+}
+
+.tipoDePagamento{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+}
+
+.tipoDePagamentoBtn{
+    width: 17%;
+    height: 30px;
+    border-width: 1px;
+    cursor: pointer;
+    border-style: double;
+    border-color: gray;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+    font-size: 15px;
+}
+
+.produto{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+}
+
+.produtoBtn{    
+    font-size: 15px;
+    width: 12%;
+    height: 30px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: gray;
+    border-style: double;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+
+}
+
+.grupo{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+}
+
+.grupoBtn{
+    width: 11%;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    border-style: double;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: none;
+}
+
+.fornecedor{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    width: 95%;
+    height: 342px;
+    margin-left: 30px;
+}
+
+.fornecedorBtn{
+    width: 15%;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: gray;
+    border: none;
+}
+
+.modal-content{
+    border-style: solid;
+    width: 500px;
+    height: 150px;
+
+}
+
+.dataIni{
+    border-color: #ABADB3;
+    border-style: solid;
+    width: 120px;
+    height: 52px;
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.dataFin{
+    width: 120px;
+    border-color: #ABADB3;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    height: 52px;
+    margin-top: 5px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    line-height: 0px;
+}
+
+.pesquisar{
+    text-decoration: none;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 20px;
+    position: absolute;
+
+}
+
+.checkboxs{
+    justify-content: space-between;
+    margin-left: 5px;
+    display: flex;
+    position: absolute;
+    margin-top: 110px;
+    font-size: 13px;
+}
+
+.filtros{
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-style: inset;
+    border-right-color: #ABADB3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+}
+
+.custom-select{
+    margin-top: 2px;
+    cursor: pointer;
+    border-color: gray;
+    border-top-width: 5px;
+    color: #333333;
+    font-size: 14px;
+    max-height: 30px;
+    width: 25%;
+    border-radius: 5px;
+    height: auto;
+    align-items: center;
+    border-width: 2.5px;
+}
+
+.search-input{
+    border-right: none;
+    margin-left: 3px;
+    margin-top: 2px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.filter01{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    cursor: pointer;
+    margin-top: 2px;
+    background-color: lightblue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-color: transparent;
+    border-top-color: black;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.1px;
+    height: 28.9px;
+    width: 30px;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.relatorio-content{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    left: 1240px;
+    top: 162px;
+    right: 220px;
+}
+
+.relatorioBtn{
+    text-decoration: none;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    background-color: white;
+    position: absolute;
+}
